@@ -1,0 +1,61 @@
+﻿@model BanVeMayBay.Models.MayBay
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>MayBay</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Sân bay
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Site)
+        </dd>
+        <dt class = "col-sm-2">
+            Máy bay
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TenMayBay)
+        </dd>
+        <dt class = "col-sm-2">
+            Hãng
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.HangSanXuat)
+        </dd>
+        <dt class = "col-sm-2">
+            Tổng ghế
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TongGhe)
+        </dd>
+        <dt class = "col-sm-2">
+            Thương gia
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SoGheLoai1)
+        </dd>
+        <dt class = "col-sm-2">
+            Phổ thông
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SoGheLoai2)
+        </dd>
+        <dt class = "col-sm-2">
+            Guid
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.rowguid)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.MaMayBay">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

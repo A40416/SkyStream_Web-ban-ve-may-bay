@@ -1,0 +1,126 @@
+﻿
+@{
+    ViewData["Title"] = "Search";
+    Layout = "~/Views/Shared/_LayoutWeb.cshtml";
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th style="width: 10.66%;" class="header-cell">Điểm đi</th>
+            <th style="width: 10.66%;" class="header-cell">Điểm đến</th>
+            <th style="width: 10.66%;" class="header-cell">Ngày giờ đi</th>
+            <th style="width: 10.66%;" class="header-cell">Ngày về</th>
+            <th style="width: 10.66%;" class="header-cell">Loại ghế</th>
+            <th style="width: 10.66%;" class="header-cell">Giá vé</th>
+            <th style="width: 10%;" class="header-cell">   </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="7" class="inner-cell">
+                <table class="table table-bordered m-0 table-fixed inner-table">
+                    <tr>
+                        <td>Hà Nội</td>
+                        <td>Thành phố Hồ Chí Minh</td>
+                        <td>24/05/2024 12:30</td>
+                        <td>25/05/2024 22:45</td>
+                        <td class="seat-type">Phổ thông</td>
+                        <td>500.000</td>
+                        <td>
+                            <button type="button" class="btn-mua" onclick="location.href='@Url.Action("PPP", "Home")'">Mua</button>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f5f6fa;
+        color: #333;
+    }
+
+    .table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+        margin: 20px 0;
+        font-size: 15px;
+        background-color: #fff;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .header-cell {
+        background: linear-gradient(90deg, #007bff, #0056b3);
+        color: white;
+        padding: 12px;
+        text-align: center;
+        font-weight: bold;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .inner-table {
+        width: 100%;
+    }
+
+    .table-bordered td, .table-bordered th {
+        border: none;
+    }
+
+    .inner-cell {
+        padding: 0;
+    }
+
+    .table-bordered td {
+        padding: 12px;
+        text-align: center;
+        vertical-align: middle;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .table-fixed {
+        table-layout: fixed;
+    }
+
+    .seat-type {
+        color: #007bff;
+        font-weight: bold;
+    }
+
+    .btn-mua {
+        background-color: #28a745;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 20px;
+        transition: background-color 0.3s, transform 0.2s;
+    }
+
+        .btn-mua:hover {
+            background-color: #218838;
+            transform: translateY(-2px);
+        }
+
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    .table-bordered td:first-child {
+        border-left: none;
+    }
+
+    .table-bordered td:last-child {
+        border-right: none;
+    }
+</style>

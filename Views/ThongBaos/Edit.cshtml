@@ -1,0 +1,57 @@
+﻿@model BanVeMayBay.Models.ThongBao
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>ThongBao</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Ma" />
+            <div class="form-group">
+                <label asp-for="NhanVien" class="control-label">Nhân viên</label>
+                <input asp-for="NhanVien" class="form-control" />
+                <span asp-validation-for="NhanVien" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ThongBao1" class="control-label">Thông báo</label>
+                <input asp-for="ThongBao1" class="form-control" />
+                <span asp-validation-for="ThongBao1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ThoiGian" class="control-label">Thời gian</label>
+                <input asp-for="ThoiGian" class="form-control" />
+                <span asp-validation-for="ThoiGian" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="rowguid" class="control-label">guid</label>
+                <input asp-for="rowguid" class="form-control" />
+                <span asp-validation-for="rowguid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KiemTraChu" class="control-label">Kiểm tra chữ</label>
+                <input asp-for="KiemTraChu" class="form-control" />
+                <span asp-validation-for="KiemTraChu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KiemTraTram" class="control-label">Kiểm tra trạm</label>
+                <input asp-for="KiemTraTram" class="form-control" />
+                <span asp-validation-for="KiemTraTram" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

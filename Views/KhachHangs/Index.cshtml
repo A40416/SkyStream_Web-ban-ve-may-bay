@@ -1,0 +1,66 @@
+﻿@model IEnumerable<BanVeMayBay.Models.KhachHang>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+               Sân bay
+            </th>
+            <th>
+                Họ tên
+            </th>
+            <th>
+                Điện thoại
+            </th>
+            <th>
+                Địa chỉ
+            </th>
+            <th>
+               Căn cước
+            </th>
+            <th>
+                Guid
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Site)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenKhachHang)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SoDienThoai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiaChi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CMND)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.rowguid)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.MaKhachHang">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.MaKhachHang">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.MaKhachHang">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,133 @@
+﻿@{
+    ViewData["Title"] = "ABC";
+    Layout = "~/Views/Shared/_LayoutView.cshtml";
+}
+
+
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông Tin Vé Máy Bay</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card-header, .card-footer {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .card {
+            margin-bottom: 20px;
+        }
+
+        .form-control {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Thông Tin Vé Máy Bay</h4>
+                    </div>
+                    <div class="card-body">
+                        <dl class="row">
+                            <dt class="col-sm-4">Mã số vé</dt>
+                            <dd class="col-sm-8">VB01</dd>
+                            <dt class="col-sm-4">Sân bay</dt>
+                            <dd class="col-sm-8">Nội Bài</dd>
+                            <dt class="col-sm-4">Điểm đi</dt>
+                            <dd class="col-sm-8">Hà Nội</dd>
+                            <dt class="col-sm-4">Điểm đến</dt>
+                            <dd class="col-sm-8">Thành phố Hồ Chí Minh</dd>
+                            <dt class="col-sm-4">Tên Máy Bay</dt>
+                            <dd class="col-sm-8">MH-567</dd>
+                            <dt class="col-sm-4">Vị trí cổng</dt>
+                            <dd class="col-sm-8">01</dd>
+                            <dt class="col-sm-4">Ngày giờ đi</dt>
+                            <dd class="col-sm-8">24/05/2024 12:30</dd>
+                            <dt class="col-sm-4">Ngày về</dt>
+                            <dd class="col-sm-8">25/05/2024 22:45</dd>
+                            <dt class="col-sm-4">Giá vé</dt>
+                            <dd class="col-sm-8">500.000</dd>
+                            <dt class="col-sm-4">Thuế</dt>
+                            <dd class="col-sm-8">Thuế VAT - 200.000</dd>
+                            <dt class="col-sm-4">Tổng tiền thanh toán</dt>
+                            <dd class="col-sm-8">700.000</dd>
+                        </dl>
+                    </div>
+                    <div class="card-footer">
+                        <strong>Tổng số tiền: 700.000 VND</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <form asp-action="ABC" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group row">
+                        <div class="col-sm-6">
+                            <label>Họ</label>
+                            <input name="KhachHang.Ho" class="form-control" required />
+                        </div>
+                        <div class="col-sm-6">
+                            <label>Tên</label>
+                            <input name="KhachHang.Ten" class="form-control" required />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-6">
+                            <label>Email</label>
+                            <input name="KhachHang.Email" class="form-control" type="email" required />
+                        </div>
+                        <div class="col-sm-6">
+                            <label>Số di động</label>
+                            <input name="KhachHang.SoDienThoai" class="form-control" type="tel" required />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Ngày sinh</label>
+                        <input name="KhachHang.NgaySinh" class="form-control" type="date" required />
+                    </div>
+                    <div class="form-group">
+                        <label>Địa chỉ</label>
+                        <input name="KhachHang.DiaChi" class="form-control" required />
+                    </div>
+                    <div class="form-group">
+                        <label>CCCD/CMND</label>
+                        <input name="KhachHang.CMND" class="form-control" required />
+                    </div>
+                    <div class="form-group">
+                        <select name="thanhtoan" class="form-control" required>
+                            <option value="">Phương thức thanh toán</option>
+                            <option value="COD">Thanh toán trực tiếp</option>
+                            <option value="Pay">Chuyển khoản</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Thanh Toán" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

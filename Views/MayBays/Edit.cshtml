@@ -1,0 +1,62 @@
+﻿@model BanVeMayBay.Models.MayBay
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>MayBay</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="MaMayBay" />
+            <div class="form-group">
+                <label asp-for="Site" class="control-label">Sân bay</label>
+                <input asp-for="Site" class="form-control" />
+                <span asp-validation-for="Site" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TenMayBay" class="control-label">Máy bay</label>
+                <input asp-for="TenMayBay" class="form-control" />
+                <span asp-validation-for="TenMayBay" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HangSanXuat" class="control-label">Hãng</label>
+                <input asp-for="HangSanXuat" class="form-control" />
+                <span asp-validation-for="HangSanXuat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TongGhe" class="control-label">Tổng ghế</label>
+                <input asp-for="TongGhe" class="form-control" />
+                <span asp-validation-for="TongGhe" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SoGheLoai1" class="control-label">Thương gia</label>
+                <input asp-for="SoGheLoai1" class="form-control" />
+                <span asp-validation-for="SoGheLoai1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SoGheLoai2" class="control-label">Phổ thông</label>
+                <input asp-for="SoGheLoai2" class="form-control" />
+                <span asp-validation-for="SoGheLoai2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="rowguid" class="control-label">Guid</label>
+                <input asp-for="rowguid" class="form-control" />
+                <span asp-validation-for="rowguid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

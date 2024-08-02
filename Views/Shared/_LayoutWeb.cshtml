@@ -1,0 +1,476 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hãng hàng không SkyStream</title>
+    <link rel="icon" href="~/contentWeb/img/lg.png" type="image/png" sizes="32x32">
+    <!--
+
+    Tooplate 2095 Level
+
+    https://www.tooplate.com/view/2095-level
+
+    -->
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">  <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="~/contentWeb/font-awesome-4.7.0/css/font-awesome.min.css">                <!-- Font Awesome -->
+    <link rel="stylesheet" href="~/contentWeb/css/bootstrap.min.css">                                      <!-- Bootstrap style -->
+    <link rel="stylesheet" type="~/contentWeb/text/css" href="~/contentWeb/slick/slick.css" />
+    <link rel="stylesheet" type="~/contentWeb/text/css" href="~/contentWeb/slick/slick-theme.css" />
+    <link rel="stylesheet" type="~/contentWeb/text/css" href="~/contentWeb/css/datepicker.css" />
+    <link rel="stylesheet" href="~/contentWeb/css/tooplate-style.css">                                   <!-- Templatemo style -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+</head>
+
+<body>
+    <div class="tm-main-content" id="top">
+        <div class="tm-top-bar-bg"></div>
+        <div class="tm-top-bar" id="tm-top-bar">
+            <!-- Top Navbar -->
+            <div class="container">
+                <div class="row">
+
+                    <nav class="navbar navbar-expand-lg narbar-light">
+                        <a class="navbar-brand mr-auto" href="#">
+                            <img src="~/contentWeb/img/logo1.png" width="66" height="66" alt="Site logo">
+                         
+                        </a>
+                        <button type="button" id="nav-toggle" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div id="mainNav" class="collapse navbar-collapse tm-bg-white">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#top">Trang chủ <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#tm-section-4">Tin Tức</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#tm-section-5">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#tm-section-6">Liên Hệ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Login" asp-action="DangNhap">Đăng Nhập</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="tm-section tm-bg-img" id="tm-section-1">
+            <div class="tm-bg-white ie-container-width-fix-2">
+                <div class="container ie-h-align-center-fix">
+                    <div class="row">
+                        <div class="col-xs-12 ml-auto mr-auto ie-container-width-fix">
+                            @RenderBody()
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="tm-section-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <h2 class="tm-section-title">Bạn vẫn chưa quyết định được chỗ đến?</h2>
+                        <p class="tm-color-white tm-section-subtitle">Khám phá moi điểm đến cùng SKYSTREAM</p>
+                        <a href="#" class="tm-color-white tm-btn-white-bordered">Cùng tìm kiếm vé máy bay nào....</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tm-section tm-position-relative">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" class="tm-section-down-arrow">
+                <polygon fill="#007bff" points="0,0  100,0  50,60"></polygon>
+            </svg>
+            <div class="container tm-pt-5 tm-pb-4">
+                <div class="row text-center">
+                    <article class="col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-article">
+                        <img src="https://elines.vn/static/upload/2022-09-04/1662308947606.jpg" class="news-item__image">
+                        <h3 class="tm-color-primary tm-article-title-1">Tại sao SkyStream là nơi đặt vé máy bay tốt nhất 2024?</h3>
+                        <p>Là đại lý chính thức của tất cả các hãng bay nội địa, SKYSTREAM chính là nơi đặt vé máy bay tốt nhất 2024 với cực nhiều ưu điểm.</p>
+                        <a asp-controller="Home" asp-action="Post1" class="text-uppercase tm-color-primary1 tm-font-semibold">Đọc tiếp...</a>
+                    </article>
+                    <article class="col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-article">
+                        <img src="~/contentWeb/img/img5.jpg" alt="Image" class="news-item__image">
+                        <h3 class="tm-color-primary tm-article-title-1">SKYSTREAM TUYỂN ĐẠI LÝ & CTV BÁN VÉ MÁY BAY</h3>
+                        <p>Chính sách tốt nhất thị trường cho đối tác làm CTV và Đại lý bán vé máy bay.</p>
+                        <a asp-controller="Home" asp-action="Post2" class="text-uppercase tm-color-primary1 tm-font-semibold">Đọc tiếp...</a>
+                    </article>
+                    <article class="col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-article">
+                        <img src="~/contentWeb/img/img6.jpg" alt="Image" class="news-item__image">
+                        <h3 class=" tm-article-title-1">KINH NGHIỆM CHO NGƯỜI LẦN ĐẦU ĐI MÁY BAY</h3>
+                        <p>Có lẽ lần đâu bay bạn sẽ sợ thủ tục phức tạp và còn lạ lẫm. Đừng lo hãy tham khảo 1 số kinh nghiệm để trải nghiệm để chuyến bay thoải mái nhất nhé. </p>
+                        <a asp-controller="Home" asp-action="Post3" class="text-uppercase tm-color-primary1 tm-font-semibold">Đọc tiếp...</a>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+        <div class="tm-section tm-section-pad tm-bg-gray" id="tm-section-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                        <div class="tm-article-carousel">
+                            <article class="tm-bg-white mr-2 tm-carousel-item">
+                                <img src="~/contentWeb/img/img1.jpg" alt="Image" class="img-fluid">
+                                <div class="tm-article-pad">
+                                    <header><h3 class="text-uppercase tm-article-title-2">HAPPY NEW YEAR 2024!</h3></header>
+                                    <p>Chúc mừng năm mới Giáp Thìn! Cảm ơn các bạn vì đã đồng hành cùng SkyStream trong suốt một năm dài vừa qua.</p>
+                                    <a asp-controller="Home" asp-action="Post4" class="text-uppercase btn-primary tm-btn-primary">Xem Thêm...</a>
+                                </div>
+                            </article>
+                            <article class="tm-bg-white mr-2 tm-carousel-item">
+                                <img src="https://alpha.elines.vn/static/upload/2020-11-12/1605152250774.jpg"  class="img-fluid">
+                                <div class="tm-article-pad">
+                                    <header><h3 class="text-uppercase tm-article-title-2">Vé Máy Bay Đi Cần Thơ Giá Rẻ Năm 2024</h3></header>
+                                    <p>Mua vé máy bay giá rẻ cùng SkyStream với năm bước thanh toán đơn giản để khám phá ngay vẻ đẹp của thành phố Cần Thơ</p>
+                                    <a asp-controller="Home" asp-action="Post5" class="text-uppercase btn-primary tm-btn-primary">Xem Thêm...</a>
+                                </div>
+                            </article>
+                            <article class="tm-bg-white mr-2 tm-carousel-item">
+                                <img src="https://alpha.elines.vn/static/upload/2020-11-12/1605152245188.jpg" class="img-fluid">
+                                <div class="tm-article-pad">
+                                    <header><h3 class="text-uppercase tm-article-title-2">Vé Máy Bay Đi Hà Nội Giá Rẻ Năm 2024</h3></header>
+                                    <p>Vi vu thủ đô nghìn năm văn hiến với vé máy đi Hà Nội giá rẻ. Khuyến mãi hấp dẫn mỗi ngày, thanh toán nhanh chóng, chỉ với ít bước là có vé ngay.</p>
+                                    <a asp-controller="Home" asp-action="Post6" class="text-uppercase btn-primary tm-btn-primary">Xem Thêm...</a>
+                                </div>
+                            </article>
+                            <article class="tm-bg-white mr-2 tm-carousel-item">
+                                <img src="~/contentWeb/img/img2.jpg" alt="Image" class="img-fluid">
+                                <div class="tm-article-pad">
+                                    <header><h3 class="text-uppercase tm-article-title-2">Vé Máy Bay Đi Nha Trang Năm 2024</h3></header>
+                                    <p>Nha Trang là một thành phố du lịch ven biển và là trung tâm chính trị, kinh tế, văn hóa, khoa học kỹ thuật và du lịch của tỉnh Khánh Hòa, Việt Nam. Nha Trang được mệnh danh là hòn ngọc của biển Đông, vì giá trị thiên nhiên, sắc đẹp cũng như khí hậu của nó.</p>
+                                    <a href="#" class="text-uppercase btn-primary tm-btn-primary">Xem Thêm...</a>
+                                </div>
+                            </article>
+                            <article class="tm-bg-white mr-2 tm-carousel-item">
+                                <img src="~/contentWeb/img/img3.jpg" alt="Image" class="img-fluid">
+                                <div class="tm-article-pad">
+                                    <header><h3 class="text-uppercase tm-article-title-2">Vé Máy Bay Đi Sài Gòn Giá Rẻ Năm 2024</h3></header>
+                                    <p>Thành phố Hồ Chí Minh (Sài Gòn) là trung tâm kinh tế, chính trị và văn hóa lớn nhất ở miền Nam Việt Nam. Sài Gòn – thành phố Hồ Chí Minh cũng là một trung tâm du lịch lớn, với các di tích lịch sử và bảo tàng ghi lại dấu ấn thời chiến tranh chống Pháp và Mỹ.</p>
+                                    <a href="#" class="text-uppercase btn-primary tm-btn-primary">Xem Thêm...</a>
+                                </div>
+                            </article>
+                            <article class="tm-bg-white tm-carousel-item">
+                                <img src="~/contentWeb/img/img4.jpg" alt="Image" class="img-fluid">
+                                <div class="tm-article-pad">
+                                    <header><h3 class="text-uppercase tm-article-title-2">Vé Máy Bay Đi Vinh Giá Rẻ Năm 2024</h3></header>
+                                    <p>Vinh là một thành phố - trung tâm kinh tế, chính trị của tỉnh Nghệ An cũng là của vùng Bắc Trung Bộ, Việt Nam. Thành phố Vinh là một trong những trung tâm du lịch của tỉnh Nghệ An, từ lâu đã hấp dẫn du khách bởi một quần thể khu du lịch với những nét đặc trưng tiêu biểu.</p>
+                                    <a href="#" class="text-uppercase btn-primary tm-btn-primary">Xem Thêm...</a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 tm-recommended-container">
+                        <div class="tm-bg-white">
+                            <div class="tm-bg-primary tm-sidebar-pad">
+                                <h3 class="tm-color-white tm-sidebar-title">Những địa điểm hot</h3>
+                                <p class="tm-color-white tm-margin-b-0 tm-font-light">Du lịch mở rộng tầm mắt</p>
+                            </div>
+                            <div class="tm-sidebar-pad-2">
+                                <a asp-controller="Home" asp-action="Post10" class="media tm-media tm-recommended-item">
+                                    <img src="~/contentWeb/img/tn-img-01.jpg" alt="Image">
+                                    <div class="media-body tm-media-body tm-bg-gray">
+                                        <h4 class="text-uppercase tm-font-semibold tm-sidebar-item-title">Bà Nà Hưu - Đà Nẵng</h4>
+                                    </div>
+                                </a>
+                                <a asp-controller="Home" asp-action="Post11" class="media tm-media tm-recommended-item">
+                                    <img src="~/contentWeb/img/tn-img-02.jpg" alt="Image">
+                                    <div class="media-body tm-media-body tm-bg-gray">
+                                        <h4 class="text-uppercase tm-font-semibold tm-sidebar-item-title">Vịnh Hạ Long - Quảng Ninh</h4>
+                                    </div>
+                                </a>
+                                <a asp-controller="Home" asp-action="Post12" class="media tm-media tm-recommended-item">
+                                    <img src="~/contentWeb/img/tn-img-03.jpg" alt="Image">
+                                    <div class="media-body tm-media-body tm-bg-gray">
+                                        <h4 class="text-uppercase tm-font-semibold tm-sidebar-item-title">Vườn quốc gia Xuân Thủy- Nam Định</h4>
+                                    </div>
+                                </a>
+                                <a href="#" class="media tm-media tm-recommended-item">
+                                    <img src="~/contentWeb/img/tn-img-04.jpg" alt="Image">
+                                    <div class="media-body tm-media-body tm-bg-gray">
+                                        <h4 class="text-uppercase tm-font-semibold tm-sidebar-item-title">Thác Bản Giốc - Cao Bằng</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tm-bg-video">
+            <div class="overlay">
+                <i class="fa fa-5x fa-play-circle tm-btn-play"></i>
+                <i class="fa fa-5x fa-pause-circle tm-btn-pause"></i>
+            </div>
+            <video controls="" loop="" class="tmVideo">
+                <source src="~/contentWeb/videos/video1.mp4" type="video/mp4">
+            </video>
+            <div class="tm-section tm-section-pad tm-bg-img" id="tm-section-5">
+                <div class="container ie-h-align-center-fix">
+                    <div class="row tm-flex-align-center">
+                        <div class="col-xs-12 col-md-12 col-lg-3 col-xl-3 tm-media-title-container">
+                            <h2 class="text-uppercase tm-section-title-2">VIỆT NAM</h2>
+                            <h3 class="tm-color-primary tm-font-semibold tm-section-subtitle-2">HOT</h3>
+                        </div>
+                        <div class="col-xs-12 col-md-12 col-lg-9 col-xl-9 mt-0 mt-sm-3">
+                            <div class="ml-auto tm-bg-white-shadow tm-pad tm-media-container">
+                                <article class="media tm-margin-b-20 tm-media-1">
+                                    <img src="~/contentWeb/img/img7.jpg" alt="Image" style="width: 280px; text-align: center; height: 170px">
+                                    <div class="media-body tm-media-body-1 tm-media-body-v-center">
+                                        <h3 class="tm-font-semibold tm-color-primary tm-article-title-3">ĐI HÀ GIANG MẶC GÌ ĐẸP? BÍ KÍP CHỌN TRANG PHỤC ĐỂ CHỤP ẢNH KHI ĐI DU LỊCH HÀ GIANG</h3>
+                                        <p>
+                                            Hà Giang, vùng đất nằm ở phía Bắc Việt Nam, là một điểm du lịch hấp dẫn với phong cảnh đậm đà nét địa phương. Trong bài viết này, chúng tôi sẽ giới thiệu các nét đẹp và điểm du lịch nổi tiếng ở Hà Giang, cùng với những mẹo chụp ảnh đẹp và gợi ý trang phục phù hợp để tạo ra những bức hình ấn tượng và sang trọng
+                                        </p>
+                                        <a asp-controller="Home" asp-action="Post7" class="text-uppercase tm-color-primary tm-font-semibold">Đọc tiếp...</a>
+                                    </div>
+                                </article>
+                                <article class="media tm-margin-b-20 tm-media-1">
+                                    <img src="~/contentWeb/img/img8.jpg" alt="Image" style="width: 280px; text-align: center; height: 170px">
+                                    <div class="media-body tm-media-body-1 tm-media-body-v-center">
+                                        <h3 class="tm-font-semibold tm-article-title-3">Trải nghiệm thú vị du lịch Hạ Long ngủ đêm trên du thuyền</h3>
+                                        <p>Du lịch Hạ Long ngủ đêm trên du thuyền là trải nghiệm mà nhiều du khách muốn thử khi có cơ hội đến với thành phố xinh đẹp này. Thế nhưng bạn cần chuẩn bị những gì, thuê du thuyền ở đâu, chi phí vào khoảng bao nhiêu? Cùng SkyStream tìm kiếm câu trả lời bạn nhé..</p>
+                                        <a asp-controller="Home" asp-action="Post8" class="text-uppercase tm-color-primary tm-font-semibold">Đọc tiếp...</a>
+                                    </div>
+                                </article>
+                                <article class="media tm-margin-b-20 tm-media-1">
+                                    <img src="~/contentWeb/img/img9.jpg" alt="Image" style="width: 280px; text-align: center; height: 170px">
+                                    <div class="media-body tm-media-body-1 tm-media-body-v-center">
+                                        <h3 class="tm-font-semibold tm-article-title-3">Mách bạn 17 Địa Điểm Du Lịch Đà Nẵng Nổi Tiếng Không Nên Bỏ Lỡ</h3>
+                                        <p>Đà Nẵng, thành phố đáng sống nhất Việt Nam, có gì đặc biệt khiến hội cuồng chân mê mẩn? Cùng SkyStream khám phá những địa điểm du lịch Đà Nẵng nổi tiếng bạn không thể bỏ qua trong hành trình sắp tới. </p>
+                                        <a asp-controller="Home" asp-action="Post9" class="text-uppercase tm-color-primary tm-font-semibold">Đọc tiếp...</a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tm-section tm-section-pad tm-bg-img tm-position-relative" id="tm-section-6">
+            <div class="container ie-h-align-center-fix">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-7">
+                        <div id="google-map"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-5 mt-3 mt-md-0">
+                        <div class="tm-bg-white tm-p-4">
+                            <form action="index.html" method="post" class="contact-form">
+                                <div class="form-group">
+                                    <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Họ Tên" required />
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email" required />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" id="contact_subject" name="contact_subject" class="form-control" placeholder="Vấn Đề" required />
+                                </div>
+                                <div class="form-group">
+                                    <textarea id="contact_message" name="contact_message" class="form-control" rows="9" placeholder="Nội Dung" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary tm-btn-primary">Gửi Ngay</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="tm-bg-dark-blue">
+            <div class="container">
+                <div class="row">
+                    <p class="col-sm-12 text-center tm-font-light tm-color-white p-4 tm-margin-b-0">
+                        SKYSTREAM- <span class="tm-current-year">2024</span> - Hotline: 0123456789
+
+                        @* - Design: <a rel="nofollow" href="https://www.tooplate.com" class="tm-color-primary tm-font-normal" target="_parent">Tooplate</a> *@
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- load JS files -->
+    <script src="~/contentWeb/js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
+    <script src="~/contentWeb/js/popper.min.js"></script>                    <!-- https://popper.js.org/ -->
+    <script src="~/contentWeb/js/bootstrap.min.js"></script>                 <!-- https://getbootstrap.com/ -->
+    <script src="~/contentWeb/js/datepicker.min.js"></script>                <!-- https://github.com/qodesmith/datepicker -->
+    <script src="~/contentWeb/js/jquery.singlePageNav.min.js"></script>      <!-- Single Page Nav (https://github.com/ChrisWojcik/single-page-nav) -->
+    <script src="~/contentWeb/slick/slick.min.js"></script>                  <!-- http://kenwheeler.github.io/slick/ -->
+    <script>
+
+        /* Google map
+        ------------------------------------------------*/
+        var map = '';
+        var center;
+
+        function initialize() {
+            var mapOptions = {
+                zoom: 13,
+                center: new google.maps.LatLng(21.2200,105.8031),
+                scrollwheel: false
+            };
+
+            map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
+
+            google.maps.event.addDomListener(map, 'idle', function () {
+                calculateCenter();
+            });
+
+            google.maps.event.addDomListener(window, 'resize', function () {
+                map.setCenter(center);
+            });
+        }
+
+        function calculateCenter() {
+            center = map.getCenter();
+        }
+
+        function loadGoogleMap() {
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDVWt4rJfibfsEDvcuaChUaZRS5NXey1Cs&v=3.exp&sensor=false&' + 'callback=initialize';
+            document.body.appendChild(script);
+        }
+
+        function setCarousel() {
+
+            if ($('.tm-article-carousel').hasClass('slick-initialized')) {
+                $('.tm-article-carousel').slick('destroy');
+            }
+
+            if ($(window).width() < 438) {
+                // Slick carousel
+                $('.tm-article-carousel').slick({
+                    infinite: false,
+                    dots: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                });
+            }
+            else {
+                $('.tm-article-carousel').slick({
+                    infinite: false,
+                    dots: true,
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                });
+            }
+        }
+
+        function setPageNav() {
+            if ($(window).width() > 991) {
+                $('#tm-top-bar').singlePageNav({
+                    currentClass: 'active',
+                    offset: 79
+                });
+            }
+            else {
+                $('#tm-top-bar').singlePageNav({
+                    currentClass: 'active',
+                    offset: 65
+                });
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const video = document.querySelector('.tmVideo');
+            const playButton = document.querySelector('.tm-btn-play');
+            const pauseButton = document.querySelector('.tm-btn-pause');
+
+            playButton.addEventListener('click', function () {
+                video.play();
+            });
+
+            pauseButton.addEventListener('click', function () {
+                video.pause();
+            });
+
+            video.addEventListener('play', function () {
+                playButton.style.display = 'none';
+                pauseButton.style.display = 'block';
+            });
+
+            video.addEventListener('pause', function () {
+                playButton.style.display = 'block';
+                pauseButton.style.display = 'none';
+            });
+
+            video.addEventListener('ended', function () {
+                playButton.style.display = 'block';
+                pauseButton.style.display = 'none';
+            });
+        });
+
+
+
+        $(document).ready(function () {
+
+            $(window).on("scroll", function () {
+                if ($(window).scrollTop() > 100) {
+                    $(".tm-top-bar").addClass("active");
+                } else {
+                    //remove the background property so it comes transparent again (defined in your css)
+                    $(".tm-top-bar").removeClass("active");
+                }
+            });
+
+            // Google Map
+            loadGoogleMap();
+
+            // Date Picker
+            const pickerCheckIn = datepicker('#inputCheckIn');
+            const pickerCheckOut = datepicker('#inputCheckOut');
+
+            // Slick carousel
+            setCarousel();
+            setPageNav();
+
+            $(window).resize(function () {
+                setCarousel();
+                setPageNav();
+            });
+
+            // Close navbar after clicked
+            $('.nav-link').click(function () {
+                $('#mainNav').removeClass('show');
+            });
+
+            // Control video
+            $('.tm-btn-play').click(function () {
+                togglePlayPause();
+            });
+
+            $('.tm-btn-pause').click(function () {
+                togglePlayPause();
+            });
+
+            // Update the current year in copyright
+            $('.tm-current-year').text(new Date().getFullYear());
+        });
+
+    </script>
+
+</body>
+</html>

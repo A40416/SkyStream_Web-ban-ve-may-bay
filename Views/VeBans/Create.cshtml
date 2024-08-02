@@ -1,0 +1,45 @@
+﻿@model BanVeMayBay.Models.VeBan
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>VeBan</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Site" class="control-label">Sân bay</label>
+                <input asp-for="Site" class="form-control" />
+                <span asp-validation-for="Site" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GiaVe" class="control-label">Giá vé</label>
+                <input asp-for="GiaVe" class="form-control" />
+                <span asp-validation-for="GiaVe" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TongTienThanhToan" class="control-label">Thanh toán</label>
+                <input asp-for="TongTienThanhToan" class="form-control" />
+                <span asp-validation-for="TongTienThanhToan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="rowguid" class="control-label">Guid</label>
+                <input asp-for="rowguid" class="form-control" />
+                <span asp-validation-for="rowguid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
