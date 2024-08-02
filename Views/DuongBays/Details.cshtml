@@ -1,0 +1,55 @@
+﻿@model BanVeMayBay.Models.DuongBay
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>DuongBay</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Sân bay
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Site)
+        </dd>
+        <dt class = "col-sm-2">
+           Vị trí
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ViTri)
+        </dd>
+        <dt class = "col-sm-2">
+           Chiều dài
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ChieuDai)
+        </dd>
+        <dt class = "col-sm-2">
+            Chiều rộng
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ChieuRong)
+        </dd>
+        <dt class = "col-sm-2">
+            Trạng thái
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+        <dt class = "col-sm-2">
+            Guid
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.rowguid)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.MaDuongBay">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

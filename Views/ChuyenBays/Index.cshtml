@@ -1,0 +1,78 @@
+﻿@model IEnumerable<BanVeMayBay.Models.ChuyenBay>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form asp-action="Index" method="get" class="form-inline">
+    Điểm đi <input type="text" name="diemdi" />
+    Điểm đến <input type="text" name="name" />
+    <button>Tìm</button>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Sân bay
+            </th>
+            <th>
+                Giờ bay
+            </th>
+            <th>
+                Điểm đi
+            </th>
+            <th>
+                Điểm đến
+            </th>
+            <th>
+                Ngày đi
+            </th>
+            <th>
+                Ghi chú
+            </th>
+            <th>
+                Guid
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Site)
+            </td>
+            <td>
+                    @(((DateTime)item.GioBay).ToString("HH:mm"))
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiemDi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiemDen)
+            </td>
+            <td>
+                    @(((DateTime)item.NgayDi).ToString("dd/MM/yyyy"))
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GhiChu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.rowguid)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.MaChuyenBay">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.MaChuyenBay">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.MaChuyenBay">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

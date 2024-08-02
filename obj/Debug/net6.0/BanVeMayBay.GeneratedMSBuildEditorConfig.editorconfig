@@ -1,0 +1,303 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BanVeMayBay
+build_property.RootNamespace = BanVeMayBay
+build_property.ProjectDir = C:\Users\vinhl\Downloads\SkyStream\BanVeMayBay\BanVeMayBay\BanVeMayBay\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\vinhl\Downloads\SkyStream\BanVeMayBay\BanVeMayBay\BanVeMayBay
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Areas/Admin/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Areas/Admin/Views/Shared/_LayoutLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Areas/Admin/Views/Shared/_LayoutRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Areas/Admin/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Areas/Admin/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/ChuyenBays/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1eWVuQmF5c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/ChuyenBays/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1eWVuQmF5c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/ChuyenBays/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1eWVuQmF5c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/ChuyenBays/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1eWVuQmF5c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/ChuyenBays/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1eWVuQmF5c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/DuongBays/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVvbmdCYXlzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/DuongBays/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVvbmdCYXlzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/DuongBays/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVvbmdCYXlzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/DuongBays/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVvbmdCYXlzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/DuongBays/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVvbmdCYXlzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Home/Post1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb3N0MS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Home/Post10.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb3N0MTAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Home/Post11.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb3N0MTEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Home/Post12.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb3N0MTIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Home/Post2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb3N0Mi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Home/Post3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb3N0My5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Home/Post4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb3N0NC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Home/Post5.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb3N0NS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Home/Post6.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb3N0Ni5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Home/Post7.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb3N0Ny5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Home/Post8.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb3N0OC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Home/Post9.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb3N0OS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Home/PPP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQUFAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Home/TTT.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUVFQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/KhachHangs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/KhachHangs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/KhachHangs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/KhachHangs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/KhachHangs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Login/DangNhap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRGFuZ05oYXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/MayBays/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF5QmF5c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/MayBays/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF5QmF5c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/MayBays/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF5QmF5c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/MayBays/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF5QmF5c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/MayBays/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF5QmF5c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/NhanViens/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/NhanViens/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/NhanViens/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/NhanViens/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/NhanViens/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Shared/_LayoutLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Shared/_LayoutPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRQb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Shared/_LayoutRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Shared/_LayoutView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Shared/_LayoutWeb.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRXZWIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/ThongBaos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhvbmdCYW9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/ThongBaos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhvbmdCYW9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/ThongBaos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhvbmdCYW9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/ThongBaos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhvbmdCYW9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/ThongBaos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhvbmdCYW9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/VeBans/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVCYW5zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/VeBans/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVCYW5zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/VeBans/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVCYW5zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/VeBans/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVCYW5zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/VeBans/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVCYW5zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-xzzugwvorr
+
+[C:/Users/vinhl/Downloads/SkyStream/BanVeMayBay/BanVeMayBay/BanVeMayBay/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-0crkz13yei

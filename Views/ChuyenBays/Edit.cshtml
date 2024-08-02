@@ -1,0 +1,62 @@
+﻿@model BanVeMayBay.Models.ChuyenBay
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>ChuyenBay</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="MaChuyenBay" />
+            <div class="form-group">
+                <label asp-for="Site" class="control-label">Sân bay</label>
+                <input asp-for="Site" class="form-control" />
+                <span asp-validation-for="Site" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GioBay" class="control-label">Giờ bay</label>
+                <input asp-for="GioBay" class="form-control" />
+                <span asp-validation-for="GioBay" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DiemDi" class="control-label">Điểm đi</label>
+                <input asp-for="DiemDi" class="form-control" />
+                <span asp-validation-for="DiemDi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DiemDen" class="control-label">Điểm đến</label>
+                <input asp-for="DiemDen" class="form-control" />
+                <span asp-validation-for="DiemDen" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NgayDi" class="control-label">Ngày đi</label>
+                <input asp-for="NgayDi" class="form-control" />
+                <span asp-validation-for="NgayDi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GhiChu" class="control-label">Ghi chú</label>
+                <input asp-for="GhiChu" class="form-control" />
+                <span asp-validation-for="GhiChu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="rowguid" class="control-label">Guid</label>
+                <input asp-for="rowguid" class="form-control" />
+                <span asp-validation-for="rowguid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
